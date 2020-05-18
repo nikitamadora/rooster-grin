@@ -28,11 +28,24 @@ $primary-invert: $pink-invert;
 
 @import "../node_modules/bulma/bulma";
 
+// ------------------------------------- GLOBAL
+.is-purple {
+  color: white;
+  background-color: #AB5FD1;
+  border: none;
+}
+
+
+
+
+
+// ------------------------------------- HOME
+
 #logo {
-  display: inline-block;
-  max-width: 70vw;
-  width: 500px;
-  height: auto;
+  background: url('/images/logo-white.svg');
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
 }
 
 .has-bg-img {
@@ -52,6 +65,7 @@ $primary-invert: $pink-invert;
     border-radius: 10px;
   }
 }
+
 
 
 // ----------------------------- BULMA OVERWRITE
