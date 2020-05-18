@@ -35,6 +35,12 @@ $primary-invert: $pink-invert;
   height: auto;
 }
 
+.has-bg-img {
+  background: url('/images/hero.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
 
 @media screen and (max-width: 1220px) {
   .nav-button {
