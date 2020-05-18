@@ -4,7 +4,7 @@
 
 ### APPLICATION WEBSITE
 
-http://www.supercoloringpagemaker.com/
+http://www.superawesomesiteimadejustnowforroostergrin.com/
 
 ### INSTALLATION
 
