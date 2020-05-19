@@ -65,3 +65,8 @@
     If I had more time, I would spend a little while troubleshooting Flickity, because 
     it is wonderful in the applications where it does work. Shy of getting that to work, 
     I would build my own from scratch using HTML/CSS/JavaScript.
+    
+### Favorite Parts
+    - Getting to cut up a design that was made for me and tinker with CSS is
+    one of my favorite things! I didn't finish, clearly, but it was still a 
+    very fun activity. 
