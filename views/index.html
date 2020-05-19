@@ -7,6 +7,10 @@
 
     <title>Rooster Grin</title>
     
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Londrina+Outline&display=swap" rel="stylesheet">
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -24,17 +28,25 @@
     <!-- Hero -->
     <section class="hero is-medium=" id='hero'>
       <div class="hero-body">
-        <a href='/' id='logo'></a>
-        <h1 class="title">Welcome To</h1>
-        <h2 class="subtitle">Rooster Grin</h2>
-        <button class='button is-purple'>Button Button</button>
+
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a class='navbar-item' href='/' id='logo'></a>
+          </div>
+        </nav>
+  
+        <div class="container has-text-centered">
+          <h1 class="title" id='welcome-title'>Welcome To</h1>
+          <h2 class="subtitle" id='rg-title'>Rooster Grin</h2>
+          <button class='button is-purple' id='hero-button'>Button Button</button>
+        </div>
       </div>
     </section>
 
     <!-- Content Sections -->
     <section id='section-1'>
       <div class="columns is-mobile">
-        <div class="column">
+        <div class="column section-content">
           <h3 class="title is-3">Lorem Ipsum</h3>
           <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
           <a href="#">Lorem Ipsum</a>
@@ -48,7 +60,7 @@
     <section id='section-2'>
       <div class="container">
         <h3 class="title is-3">Lorem Ipsum</h3>
-        <button class='button is-warning'>Button Button</button>
+        <button class='button is-warning' id='section-2-btn'>Button Button</button>
       </div>
     </section>
 

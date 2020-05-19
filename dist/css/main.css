@@ -7133,6 +7133,14 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.title.is-3 {
+  font-family: 'Lato', sans-serif;
+  color: #643a7a;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  text-spacing: 1.2rem; }
+
 .is-purple {
   color: white;
   background-color: #AB5FD1;
@@ -7182,7 +7190,8 @@ label.panel-block {
   background: url("/images/logo-white.svg");
   background-repeat: no-repeat;
   width: 150px;
-  height: 50px; }
+  height: 50px;
+  margin-top: -10px; }
 
 #hero {
   background: url("/images/hero.jpg");
@@ -7200,6 +7209,20 @@ label.panel-block {
   background-position: center;
   background-size: cover;
   height: 300px; }
+
+#welcome-title {
+  -webkit-text-stroke: 1px white;
+  color: rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: .2rem; }
+
+#rg-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: white;
+  letter-spacing: .2rem; }
 
 @media screen and (max-width: 1220px) {
   .nav-button {

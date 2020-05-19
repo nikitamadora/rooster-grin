@@ -28,12 +28,28 @@ $primary-invert: $pink-invert;
 
 @import "../node_modules/bulma/bulma";
 
+// -----------------------------------------------
+//         Bulma Additions / Overwrites
+// -----------------------------------------------
+.title.is-3 {
+  font-family: 'Lato', sans-serif;
+  color: rgb(100, 58, 122);
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  -spacing: 1.2rem;
+}
+
 .is-purple {
   color: white;
   background-color: #AB5FD1;
   border: none;
 }
 
+
+// -----------------------------------------------
+//                Global Elements
+// -----------------------------------------------
 
 .icon-container {
   display: inline-block;
@@ -90,6 +106,7 @@ $primary-invert: $pink-invert;
   background-repeat: no-repeat;
   width: 150px;
   height: 50px;
+  margin-top: -10px;
 }
 
 #hero {
@@ -98,6 +115,12 @@ $primary-invert: $pink-invert;
   background-size: cover;
 }
 
+.section-content {
+  width: 30vw;
+}
+
+// ------------------------- Section 2
+
 #section-2 {
   background: url('/images/banner-1.jpg');
   background-position: center;
@@ -105,11 +128,30 @@ $primary-invert: $pink-invert;
   height: 300px;
 }
 
+#
+
 #section-4 {
   background: url('/images/banner-2.jpg');
   background-position: center;
   background-size: cover;
   height: 300px;
+}
+
+#welcome-title {
+  -webkit-text-stroke: 1px white;
+  color: rgba(0,0,0,.1);
+  text-transform: uppercase;
+  // font-variant: small-caps;
+  font-size: 36px;
+  letter-spacing: .2rem;
+}
+
+#rg-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: white;
+  letter-spacing: .2rem;
 }
 
 
