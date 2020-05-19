@@ -28,12 +28,12 @@ $primary-invert: $pink-invert;
 
 @import "../node_modules/bulma/bulma";
 
-// ------------------------------------- GLOBAL
 .is-purple {
   color: white;
   background-color: #AB5FD1;
   border: none;
 }
+
 
 .icon-container {
   display: inline-block;
@@ -47,6 +47,42 @@ $primary-invert: $pink-invert;
   width: 50px;
 }
 
+#icon-01 {
+  background: url('/images/home-expertise.svg');
+  width: 50px;
+  height: 50px;
+}
+
+#icon-02 {
+  background: url('/images/home-hygiene.svg');
+  width: 50px;
+  height: 50px;
+}
+
+#icon-03 {
+  background: url('/images/home-lab.svg');
+  width: 50px;
+  height: 50px;
+}
+
+#icon-04 {
+  background: url('/images/home-retention.svg');
+  width: 50px;
+  height: 50px;
+}
+
+#fb-icon {
+  background: url('/images/facebook.svg');
+  width: 50px;
+  height: 50px;
+}
+
+#ig-icon {
+  background: url('/images/instagram.svg');
+  width: 50px;
+  height: 50px;
+}
+
 // ------------------------------------- HOME
 
 #logo {
@@ -56,10 +92,24 @@ $primary-invert: $pink-invert;
   height: 50px;
 }
 
-.has-bg-img {
+#hero {
   background: url('/images/hero.jpg');
   background-position: center;
   background-size: cover;
+}
+
+#section-2 {
+  background: url('/images/banner-1.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+#section-4 {
+  background: url('/images/banner-2.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
 }
 
 
