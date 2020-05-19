@@ -14,6 +14,10 @@ const clickAlert = () => {
 };
 
 const heroButton = document.querySelector('#hero-button');
-heroButton.addEventListener('click', clickAlert);
+const sectionTwoButton = document.querySelector('#section-2-btn');
+const sectionFourButton = document.querySelector('#section-4-btn');
 
+heroButton.addEventListener('click', clickAlert);
+sectionTwoButton.addEventListener('click', clickAlert);
+sectionFourButton.addEventListener('click', clickAlert);
 
