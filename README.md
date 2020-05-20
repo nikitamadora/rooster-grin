@@ -66,7 +66,17 @@
     it is wonderful in the applications where it does work. Shy of getting that to work, 
     I would build my own from scratch using HTML/CSS/JavaScript.
     
-### Favorite Parts
+### FAVORITE PARTS!
     - Getting to cut up a design that was made for me and tinker with CSS is
     one of my favorite things! I didn't finish, clearly, but it was still a 
     very fun activity. 
+    
+### WHAT'S LEFT?
+    - Add subtle animations to icons (30 minutes)
+    - Change some h3 headers to be dark gray (20m)
+    - Add chevron icon to links (Estimate requires research)
+    - Add 5 star icons to final section (Est. req. research)
+    - Troubleshoot carousel and add additional slides (1-4 hr)
+    - Fix placement of section elements with padding, margin, and flex grid tricks (~3 hr)
+    - Add markup for name/date to carousel (15m)
+    - CSS Tweaks/Polishing (1-3 hr)
