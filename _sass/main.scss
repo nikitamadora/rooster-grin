@@ -36,8 +36,14 @@ $primary-invert: $pink-invert;
   color: rgb(100, 58, 122);
   text-transform: uppercase;
   font-size: 24px;
-  font-weight: 700;
-  -spacing: 1.2rem;
+  font-weight: 800;
+}
+
+.title.is-4 {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 5px 0 0 0;
 }
 
 .is-purple {
@@ -53,38 +59,32 @@ $primary-invert: $pink-invert;
 
 .icon-container {
   display: inline-block;
+  // vertical-align: baseline;
   margin: 30px;
   width: 15vw;
 }
 
 .icon {
-  background-color: #AB5FD1;
+  display: inline-block;
+  vertical-align: middle;
   height: 50px;
   width: 50px;
 }
 
 #icon-01 {
   background: url('/images/home-expertise.svg');
-  width: 50px;
-  height: 50px;
 }
 
 #icon-02 {
   background: url('/images/home-hygiene.svg');
-  width: 50px;
-  height: 50px;
 }
 
 #icon-03 {
   background: url('/images/home-lab.svg');
-  width: 50px;
-  height: 50px;
 }
 
 #icon-04 {
   background: url('/images/home-retention.svg');
-  width: 50px;
-  height: 50px;
 }
 
 #fb-icon {
@@ -127,8 +127,6 @@ $primary-invert: $pink-invert;
   background-size: cover;
   height: 300px;
 }
-
-#
 
 #section-4 {
   background: url('/images/banner-2.jpg');
